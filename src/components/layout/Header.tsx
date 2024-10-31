@@ -12,6 +12,7 @@ const headerClasses = css({
   background: "zinc.100",
   borderBottomWidth: "!thin",
   borderBottomColor: "!zinc.300",
+  zIndex: "20"
 });
 
 const navClasses = css({

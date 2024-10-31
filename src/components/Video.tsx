@@ -5,7 +5,7 @@ import React from "react";
 
 const Video = () => {
   const isMobile = useMediaQuery("(max-width: 768px)");
- 
+
   return (
     <YouTubeEmbed
       videoid="dQw4w9WgXcQ"
