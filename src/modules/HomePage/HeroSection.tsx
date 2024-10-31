@@ -29,7 +29,10 @@ const mainSectionTextClasses = css({
 
 const mainSectionClasses = css({
   background: "zinc.200",
-  padding: "40px 0",
+  padding: "40px 20px",
+  "@media (max-width: 768px)": {
+    padding: "40px 0px",
+  },
 });
 
 const mainSectionContainerClasses = css({

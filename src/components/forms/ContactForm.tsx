@@ -75,7 +75,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ updateTitle }) => {
             <FormItem>
               <FormLabel>Name</FormLabel>
               <FormControl>
-                <Input placeholder="Your name" {...field} />
+                <Input autoComplete="name" placeholder="Your name" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -88,7 +88,11 @@ const ContactForm: React.FC<ContactFormProps> = ({ updateTitle }) => {
             <FormItem>
               <FormLabel>Email</FormLabel>
               <FormControl>
-                <Input placeholder="Your email" {...field} />
+                <Input
+                  autoComplete="email"
+                  placeholder="Your email"
+                  {...field}
+                />
               </FormControl>
               <FormMessage />
             </FormItem>

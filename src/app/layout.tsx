@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    // url: "https://yourwebsite.com",
+    url: domain,
     title: "Some company",
     description: "Test case by Kopytin Igor",
     siteName: "Some company",
@@ -48,15 +48,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Some company",
     description: "Join Some company to explore high-quality content!",
-    // site: "@yourTwitterHandle",
-    // creator: "@yourTwitterHandle",
+    site: domain,
     images: [domain + "/opengraph-image.png"],
   },
-  icons: {
-    icon: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
-  },
-  themeColor: "#ffffff",
 };
 
 export default function RootLayout({
