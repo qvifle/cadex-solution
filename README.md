@@ -26,11 +26,11 @@ This project leverages a range of cutting-edge technologies:
 
 ## Website
 
-The solution is hosted on Vercel. Visit the live site [here](https://cadex-solution-uudz.vercel.app/).
+The solution is hosted on Vercel. Visit the live site [here](https://cadex-solution.vercel.app).
 
 ## Page Speed Insights
 
-Check speed insights [here](https://pagespeed.web.dev/analysis/https-cadex-solution-uudz-vercel-app/vqsacqjhg3?form_factor=mobile)
+Check speed insights [here](https://pagespeed.web.dev/analysis/https-cadex-solution-vercel-app/j0q6osixs8?form_factor=desktop)
 
 ## Features Completed
 
