@@ -19,6 +19,7 @@ const geistMono = localFont({
   weight: "100 700 900",
 });
 
+const domain = process.env.VERCEL_URL ?? "localhost";
 export const metadata: Metadata = {
   title: {
     default: "Some company",
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
   },
   description: "Test case by Kopytin Igor",
   keywords: ["Awesome Site", "Content", "Blog", "Articles", "Information"],
-  authors: [{ name: "Kopytin Igor", url: "https://mateeria.ru" }],
+  authors: [{ name: "Kopytin Igor", url: domain }],
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -36,7 +37,7 @@ export const metadata: Metadata = {
     siteName: "Some company",
     images: [
       {
-        url: "https://mateeria.ru/opengraph-image.svg",
+        url: domain + "/opengraph-image.svg",
         width: 1200,
         height: 630,
         alt: "Some company",
@@ -49,7 +50,7 @@ export const metadata: Metadata = {
     description: "Join Some company to explore high-quality content!",
     // site: "@yourTwitterHandle",
     // creator: "@yourTwitterHandle",
-    images: ["https://yourwebsite.com/twitter-image.jpg"],
+    images: [domain + "/opengraph-image.svg"],
   },
   icons: {
     icon: "/favicon.ico",

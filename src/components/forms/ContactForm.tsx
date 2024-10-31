@@ -44,7 +44,9 @@ const ContactForm: React.FC<ContactFormProps> = ({ updateTitle }) => {
   });
 
   const sendReq = async (fields: z.infer<typeof formSchema>) => {
-    const res = await fetch("/api", {
+    const domain = process.env.VERCEL_URL ?? "";
+    const url = domain + "/api";
+    const res = await fetch(url, {
       method: "POST",
 
       body: JSON.stringify(fields),
