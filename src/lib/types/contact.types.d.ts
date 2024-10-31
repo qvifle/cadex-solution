@@ -1,0 +1,3 @@
+interface PostContactResponse {
+  message: string;
+}
