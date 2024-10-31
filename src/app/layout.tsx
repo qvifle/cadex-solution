@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     siteName: "Some company",
     images: [
       {
-        url: domain + "/opengraph-image.svg",
+        url: domain + "/opengraph-image.png",
         width: 1200,
         height: 630,
         alt: "Some company",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     description: "Join Some company to explore high-quality content!",
     // site: "@yourTwitterHandle",
     // creator: "@yourTwitterHandle",
-    images: [domain + "/opengraph-image.svg"],
+    images: [domain + "/opengraph-image.png"],
   },
   icons: {
     icon: "/favicon.ico",
