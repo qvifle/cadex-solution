@@ -22,6 +22,7 @@ This project leverages a range of cutting-edge technologies:
 - **Shadcn UI** – A UI kit for consistent, reusable components
 - **React Hook Form + Zod** – Form handling and validation
 - **Next.js Route Handlers** – Simplified backend routes within Next.js
+- **NExt.js Third Parties** - Youtube video optimization
 
 ## Website
 
